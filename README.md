@@ -1,11 +1,7 @@
-# tbktop
-# Taobao top client(SDK) for laravel
+# Taobao top SDK for laravel/lumen
 
-当前淘宝客 API
-
-### laravel
 ### 安装
-`composer require wangma/toptbk`
+`composer require toptbk/toptbk`
 
 ### 配置
 * 在config/app.php中的providers数组中添加`Wangma\TopClient\TopClientServiceProvider::class,`
