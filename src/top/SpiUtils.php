@@ -206,6 +206,7 @@ class SpiUtils
         $logger = new TopLogger;
         $logger->conf["log_file"] = storage_path() . "/logs/top/top_comm_err_". date("Y-m-d") . ".log";
         $logger->conf["separator"] = "^_^";
+        
         $logData = array(
             "checkTopSign error" ,
             "remoteSign=".$remoteSign ,
